@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/**menu**/
+.secao-topo{
+    border-bottom: 1px solid #d5d5d5;
+}
+.secao-topo p{
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.secao-largura-limitada{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2{
+    color: #ffffff;
+    text-shadow: 2px 2px 2px black;
+    margin: 0;
+}
+h3{
+    margin: 0;
+}
+
+/**Slogan abaixo do menu com imagem de fundo**/
+.secao-background-capa{
+    min-height: 500px;
+    background-image: url('../img/capa.jpg');
+    background-size: cover;
+}
+
+.secao-background-conteudo{
+    text-align: right;
+    padding: 50px 20px;
+    background: #00000090;
+}
+
+/**corpo**/
+.secao-conteudo{
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+.img-conteudo{
+    width: 240px;
+    height: 170px;
+    padding: 2px;
+    object-fit: contain;
+    box-shadow: 0px 0px 5px 2px #1b1a1a;
+}
+
+.secao-conteudo span{
+    border-left: 1px solid #1b1a1a;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+/**contato da pagina**/
+.secao-background-divisao{
+    padding: 50px 0;
+    text-align: center;
+    background-color: #d92121;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.secao-background-divisao h3{
+    font-size: 36px;
+    background-color: #6c000085;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    text-shadow: 2px 2px 5px black;
+}
+
